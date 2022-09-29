@@ -30,7 +30,6 @@ python3 ./exploit3.py ls
 python exploit3.py dir
 ```
 ### Vulnerabilites 
-```
-2 XSS in /home in name and surname variables
-1 RCE using exploit3.py
-```
+* 2 XSS in /home in name and surname variables
+* 1 RCE using exploit3.py
+
