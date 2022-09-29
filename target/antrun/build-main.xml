@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/carlos/Desktop/struts2-showcase/target/struts2-showcase/WEB-INF/src/java" failonerror="false">
+    <fileset dir="/home/carlos/Desktop/struts2-showcase/src/main/java"/>
+  </copy>
+  <copy todir="/home/carlos/Desktop/struts2-showcase/target/struts2-showcase/WEB-INF/src/java" failonerror="false">
+    <fileset dir="/home/carlos/Desktop/struts2-showcase/src/main/resources"/>
+  </copy>
+</target>
+</project>
